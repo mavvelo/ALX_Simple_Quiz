@@ -12,7 +12,7 @@ function checkAnswer() {
         return;
     }
 
-    const userAnswer = selectAnswer.ariaValueMax;
+    const userAnswer = selectAnswer.value;
 
     // compare user's answer with the correct answer 
     if (userAnswer === correctAnswer) {
